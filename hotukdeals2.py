@@ -45,7 +45,7 @@ while True:
             deal_url = deal['deal_uri']
 
             discord_data = {
-                "username": "Close Quarters Deals",
+                "username": "J Code",
                 "avatar_url": "https://i.imgur.com/Yx4vbrg.gif",
                 "attachments": [],
                 "embeds": [{
@@ -55,7 +55,7 @@ while True:
                     "description": f"Price: {price}\nTemperature: {temperature}",
                     "thumbnail": {"url": image_url},
                     "footer": {
-                        "text": "Close Quarters Deals",
+                        "text": "J Code",
                         "icon_url": footer_image_url,
                     },
                     "timestamp": datetime.datetime.utcnow().isoformat() + "Z"
